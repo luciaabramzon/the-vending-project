@@ -621,6 +621,10 @@ font-family:Arial, Helvetica, sans-serif;
 
   margin-left: 80px;
 }
+.footer-contact a{
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
 .instagram-link {
   justify-self: center;
 }
