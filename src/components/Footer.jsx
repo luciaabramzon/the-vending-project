@@ -19,17 +19,19 @@ export default function Footer() {
       <div className="footer-contact">
 
         <a
-          href="https://instagram.com/vendingproject"
+          href="https://instagram.com/vendingprojectuy"
           target="_blank"
+          rel='noopener noreferrer'
           className="instagram-link"
         >
           <FiInstagram className="footer-icon" />
-          @vendingproject
+          @vendingprojectuy
         </a>
 
         <a
           href="mailto:info@thevendingproject.com.uy"
           className="mail-link"
+          rel='noopener noreferrer'
         >
           <FiMail className="footer-icon" />
           info@thevendingproject.com.uy
