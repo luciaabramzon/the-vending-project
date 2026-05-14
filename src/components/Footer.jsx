@@ -25,7 +25,7 @@ export default function Footer() {
           className="instagram-link"
         >
           <FiInstagram className="footer-icon" />
-          @vthevendingprojectuy
+          @thevendingprojectuy
         </a>
 
         <a
