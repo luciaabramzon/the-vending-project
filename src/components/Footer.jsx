@@ -19,13 +19,13 @@ export default function Footer() {
       <div className="footer-contact">
 
         <a
-          href="https://instagram.com/vendingprojectuy"
+          href="https://instagram.com/thevendingprojectuy"
           target="_blank"
           rel='noopener noreferrer'
           className="instagram-link"
         >
           <FiInstagram className="footer-icon" />
-          @vendingprojectuy
+          @vthevendingprojectuy
         </a>
 
         <a
