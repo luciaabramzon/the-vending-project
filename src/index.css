@@ -382,6 +382,38 @@ button {
 
   font-size: 18px;
 }
+.powered-by {
+  margin-top: 50px;
+}
+
+.powered-by {
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* todo a la derecha */
+}
+
+.powered-by p {
+  font-size: 11px;
+  letter-spacing: 4px;
+  color: #7A7A7A;
+  margin-bottom: 12px;
+
+  width: 120px;      /* mismo ancho que el logo */
+  text-align: left;  /* alineado con el comienzo del logo */
+}
+
+.powered-by img {
+  width: 120px;
+  height: auto;
+  transition: opacity .3s;
+}
+
+.powered-by img:hover {
+  opacity: .8;
+}
+
 
 @media (max-width: 900px) {
   .shake-section {
@@ -410,6 +442,31 @@ button {
   .shake-section h2 {
     font-size: 54px;
   }
+}
+.powered-by {
+  margin-top: 40px;
+
+  width: 100%;
+  margin-left: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.powered-by p {
+  width: auto;
+  text-align: center;
+
+  font-size: 10px;
+  letter-spacing: 3px;
+
+  margin-bottom: 10px;
+}
+
+.powered-by img {
+  width: 100px;
+  height: auto;
 }
 /* CONTACT */
 

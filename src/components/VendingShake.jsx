@@ -1,4 +1,5 @@
 import shakeMachine from '../assets/tvs.jpeg'
+import fitnesslabLogo from '../assets/fitnesslab.png'
 
 export default function VendingShake() {
   return (
@@ -41,14 +42,24 @@ export default function VendingShake() {
 
           <div className="feature">
             <span>✓</span>
-            CREATINA
+            PRODUCTOS EXCLUSIVOS
           </div>
 
-          <div className="feature">
-            <span>✓</span>
-            ELECTROLITOS
-          </div>
         </div>
+        <div className="powered-by">
+  <p>POWERED BY</p>
+
+  <a
+    href="https://fitnesslab.com.uy/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src={fitnesslabLogo}
+      alt="Fitnesslab"
+    />
+  </a>
+</div>
       </div>
 
     </section>
